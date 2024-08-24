@@ -15,5 +15,4 @@ class Solution:
                             if letterCount == len(word)-1: answer = word
         return answer
                         
-
 print(Solution().findLongestWord("abce",["abe","abc"]))
