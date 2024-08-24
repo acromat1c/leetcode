@@ -13,4 +13,5 @@ class Solution:
         n=len(u)
         if n>a:return n
         return a
+        
 print(Solution().lengthOfLongestSubstring("aukysdfgyawuendyuewfeyyfwl"))
