@@ -12,11 +12,8 @@ class Solution:
                             break
                         else:
                             current = current[current.index(letter)+1:]
-                            if letterCount == len(word)-1: answer = word; print(word)
+                            if letterCount == len(word)-1: answer = word
         return answer
                         
-                    
 
-a = Solution()
-
-print(a.findLongestWord("abce",["abe","abc"]))
+print(Solution().findLongestWord("abce",["abe","abc"]))
