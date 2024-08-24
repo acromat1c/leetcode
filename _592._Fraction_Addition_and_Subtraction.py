@@ -26,6 +26,4 @@ class Solution:
             if all(c):break
         return str(n)+"/"+str(d)
             
-        
-
 print(Solution().fractionAddition("7/3+5/2-3/10"))
